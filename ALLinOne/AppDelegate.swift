@@ -6,6 +6,10 @@
 //
 
 import UIKit
+import DVUtility
+import DVConfiguration
+//import DVNetwork
+//import DVServices
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,9 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setApiConfiguration()
         return true
     }
 
+    private func setApiConfiguration() {
+        copyDefaultSqlite(fileName: DVSqlitePath.one.folderPath, at: DVSqlitePath.one.rawValue)
+    }
+    
+    private func copyDefaultSqlite(fileName: String, at destination: String) {
+      if (AppFileManager.fileExists(fileName) == nil) {
+        if let bundlePath = Bundle.main.url(forResource: fileName, withExtension: ".sqlite") {
+          AppFileManager.saveDocumentFromBundle(folderName: "sqlite", bundlePath: bundlePath,
+                                                filePath: destination)
+        }
+      }
+    }
+    
 //    // MARK: UISceneSession Lifecycle
 //
 //    @available(iOS 13.0, *)

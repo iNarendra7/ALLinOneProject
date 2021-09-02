@@ -3,10 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ACEEEE19A0F93931D3DE5BF /* Pods_ALLinOne_ALLinOneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52EB0CCED75B3D7E8AE9EFF /* Pods_ALLinOne_ALLinOneUITests.framework */; };
+		B68EB76B2CFC0B7D5AC56D14 /* Pods_ALLinOneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A1FF239AE26B0B9F097F2 /* Pods_ALLinOneTests.framework */; };
+		D91D46DEA4A9403177E4503E /* Pods_ALLinOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFA3B8CB2C47F7F97D5B043 /* Pods_ALLinOne.framework */; };
+		DD96859026DA2007005A178B /* HomeNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96858F26DA2007005A178B /* HomeNC.swift */; };
+		DD96859A26DA2077005A178B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96859926DA2077005A178B /* HomeVC.swift */; };
+		DD9685A126DA24A7005A178B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9685A026DA24A7005A178B /* SearchViewController.swift */; };
+		DD9685A926DA24BB005A178B /* LiveTVVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9685A826DA24BB005A178B /* LiveTVVC.swift */; };
+		DD9685AF26DA491F005A178B /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9685AE26DA491F005A178B /* AppUtility.swift */; };
+		DD9685B526DA4AD1005A178B /* MyContent in Frameworks */ = {isa = PBXBuildFile; productRef = DD9685B426DA4AD1005A178B /* MyContent */; };
+		DD9685BB26DA4B05005A178B /* DVSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = DD9685BA26DA4B05005A178B /* DVSQLite */; };
+		DD9685D926DA4BBF005A178B /* DVUtility in Frameworks */ = {isa = PBXBuildFile; productRef = DD9685D826DA4BBF005A178B /* DVUtility */; };
+		DD96861826DA4F4E005A178B /* DVConfiguration in Frameworks */ = {isa = PBXBuildFile; productRef = DD96861726DA4F4E005A178B /* DVConfiguration */; };
+		DD96862626DA5146005A178B /* one.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DD96862526DA5146005A178B /* one.sqlite */; };
+		DD96864726DA5FAF005A178B /* HomeTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96864526DA5FAF005A178B /* HomeTableViewCell1.swift */; };
+		DD96864826DA5FAF005A178B /* HomeTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD96864626DA5FAF005A178B /* HomeTableViewCell1.xib */; };
+		DD96864E26DA61C8005A178B /* HomeTvChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96864C26DA61C8005A178B /* HomeTvChannelCell.swift */; };
+		DD96864F26DA61C8005A178B /* HomeTvChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD96864D26DA61C8005A178B /* HomeTvChannelCell.xib */; };
+		DD96865426DA6305005A178B /* APP_CONSTANTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96865326DA6305005A178B /* APP_CONSTANTS.swift */; };
 		DD9AF3C926D936830001A97B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9AF3C826D936830001A97B /* AppDelegate.swift */; };
 		DD9AF3CB26D936830001A97B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9AF3CA26D936830001A97B /* SceneDelegate.swift */; };
 		DD9AF3CD26D936830001A97B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9AF3CC26D936830001A97B /* ViewController.swift */; };
@@ -45,6 +63,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22A045CDFE130E6F79333691 /* Pods-ALLinOne-ALLinOneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLinOne-ALLinOneUITests.release.xcconfig"; path = "Target Support Files/Pods-ALLinOne-ALLinOneUITests/Pods-ALLinOne-ALLinOneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F5D9849123F00DCF415E24E /* Pods-ALLinOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLinOne.debug.xcconfig"; path = "Target Support Files/Pods-ALLinOne/Pods-ALLinOne.debug.xcconfig"; sourceTree = "<group>"; };
+		6144E052957EFAC24388976D /* Pods-ALLinOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLinOne.release.xcconfig"; path = "Target Support Files/Pods-ALLinOne/Pods-ALLinOne.release.xcconfig"; sourceTree = "<group>"; };
+		6963D3D252639BFA51B970D1 /* Pods-ALLinOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLinOneTests.release.xcconfig"; path = "Target Support Files/Pods-ALLinOneTests/Pods-ALLinOneTests.release.xcconfig"; sourceTree = "<group>"; };
+		798845422F634F21D50EFA76 /* Pods-ALLinOne-ALLinOneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLinOne-ALLinOneUITests.debug.xcconfig"; path = "Target Support Files/Pods-ALLinOne-ALLinOneUITests/Pods-ALLinOne-ALLinOneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADFA3B8CB2C47F7F97D5B043 /* Pods_ALLinOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALLinOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37A1FF239AE26B0B9F097F2 /* Pods_ALLinOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALLinOneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52EB0CCED75B3D7E8AE9EFF /* Pods_ALLinOne_ALLinOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALLinOne_ALLinOneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFBEEBA9339C3EE33CF55A /* Pods-ALLinOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLinOneTests.debug.xcconfig"; path = "Target Support Files/Pods-ALLinOneTests/Pods-ALLinOneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD96858F26DA2007005A178B /* HomeNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNC.swift; sourceTree = "<group>"; };
+		DD96859926DA2077005A178B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DD9685A026DA24A7005A178B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DD9685A826DA24BB005A178B /* LiveTVVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTVVC.swift; sourceTree = "<group>"; };
+		DD9685AE26DA491F005A178B /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		DD96862526DA5146005A178B /* one.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = one.sqlite; sourceTree = "<group>"; };
+		DD96864526DA5FAF005A178B /* HomeTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell1.swift; sourceTree = "<group>"; };
+		DD96864626DA5FAF005A178B /* HomeTableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell1.xib; sourceTree = "<group>"; };
+		DD96864C26DA61C8005A178B /* HomeTvChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTvChannelCell.swift; sourceTree = "<group>"; };
+		DD96864D26DA61C8005A178B /* HomeTvChannelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTvChannelCell.xib; sourceTree = "<group>"; };
+		DD96865326DA6305005A178B /* APP_CONSTANTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APP_CONSTANTS.swift; sourceTree = "<group>"; };
 		DD9AF3C526D936830001A97B /* ALLinOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALLinOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9AF3C826D936830001A97B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9AF3CA26D936830001A97B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +114,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD96861826DA4F4E005A178B /* DVConfiguration in Frameworks */,
+				DD9685BB26DA4B05005A178B /* DVSQLite in Frameworks */,
+				DD9685B526DA4AD1005A178B /* MyContent in Frameworks */,
+				D91D46DEA4A9403177E4503E /* Pods_ALLinOne.framework in Frameworks */,
+				DD9685D926DA4BBF005A178B /* DVUtility in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68EB76B2CFC0B7D5AC56D14 /* Pods_ALLinOneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +134,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACEEEE19A0F93931D3DE5BF /* Pods_ALLinOne_ALLinOneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53366BD00FB93F94B33ACEF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F5D9849123F00DCF415E24E /* Pods-ALLinOne.debug.xcconfig */,
+				6144E052957EFAC24388976D /* Pods-ALLinOne.release.xcconfig */,
+				798845422F634F21D50EFA76 /* Pods-ALLinOne-ALLinOneUITests.debug.xcconfig */,
+				22A045CDFE130E6F79333691 /* Pods-ALLinOne-ALLinOneUITests.release.xcconfig */,
+				D1FFBEEBA9339C3EE33CF55A /* Pods-ALLinOneTests.debug.xcconfig */,
+				6963D3D252639BFA51B970D1 /* Pods-ALLinOneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7EDCBA7B8B9F10F383C79C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFA3B8CB2C47F7F97D5B043 /* Pods_ALLinOne.framework */,
+				C52EB0CCED75B3D7E8AE9EFF /* Pods_ALLinOne_ALLinOneUITests.framework */,
+				B37A1FF239AE26B0B9F097F2 /* Pods_ALLinOneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD96858E26DA1FD2005A178B /* NAVIGATION CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				DD96858F26DA2007005A178B /* HomeNC.swift */,
+			);
+			path = "NAVIGATION CONTROLLERS";
+			sourceTree = "<group>";
+		};
+		DD96859726DA2054005A178B /* HOME */ = {
+			isa = PBXGroup;
+			children = (
+				DD96864426DA5F6D005A178B /* Cells */,
+				DD96859826DA2062005A178B /* VIEWCONTROLLER */,
+			);
+			path = HOME;
+			sourceTree = "<group>";
+		};
+		DD96859826DA2062005A178B /* VIEWCONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				DD96859926DA2077005A178B /* HomeVC.swift */,
+			);
+			path = VIEWCONTROLLER;
+			sourceTree = "<group>";
+		};
+		DD96859E26DA23E1005A178B /* LIVE TV */ = {
+			isa = PBXGroup;
+			children = (
+				DD9685A826DA24BB005A178B /* LiveTVVC.swift */,
+			);
+			path = "LIVE TV";
+			sourceTree = "<group>";
+		};
+		DD96859F26DA23F4005A178B /* SEARCH */ = {
+			isa = PBXGroup;
+			children = (
+				DD9685A026DA24A7005A178B /* SearchViewController.swift */,
+			);
+			path = SEARCH;
+			sourceTree = "<group>";
+		};
+		DD9685AD26DA4906005A178B /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+				DD9685AE26DA491F005A178B /* AppUtility.swift */,
+			);
+			path = AppUtility;
+			sourceTree = "<group>";
+		};
+		DD96861C26DA4FAB005A178B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DD96862526DA5146005A178B /* one.sqlite */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DD96864426DA5F6D005A178B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DD96864526DA5FAF005A178B /* HomeTableViewCell1.swift */,
+				DD96864626DA5FAF005A178B /* HomeTableViewCell1.xib */,
+				DD96864C26DA61C8005A178B /* HomeTvChannelCell.swift */,
+				DD96864D26DA61C8005A178B /* HomeTvChannelCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		DD9AF3BC26D936830001A97B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +239,8 @@
 				DD9AF3DE26D936980001A97B /* ALLinOneTests */,
 				DD9AF3E926D936980001A97B /* ALLinOneUITests */,
 				DD9AF3C626D936830001A97B /* Products */,
+				53366BD00FB93F94B33ACEF4 /* Pods */,
+				7EDCBA7B8B9F10F383C79C26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +257,9 @@
 		DD9AF3C726D936830001A97B /* ALLinOne */ = {
 			isa = PBXGroup;
 			children = (
+				DD96861C26DA4FAB005A178B /* Resource */,
+				DD9685AD26DA4906005A178B /* AppUtility */,
+				DD96858E26DA1FD2005A178B /* NAVIGATION CONTROLLERS */,
 				DD9AF46D26D94E9A0001A97B /* SUPPORTING FILES */,
 				DD9AF46726D946EF0001A97B /* MEDIA */,
 				DD9AF40C26D938E50001A97B /* MODULES */,
@@ -159,6 +300,7 @@
 				DD9AF40126D9377F0001A97B /* APP_EXTENSIONS.swift */,
 				DD9AF47426D950CB0001A97B /* APP_FUNCTIONS.swift */,
 				DD9AF47F26D955B50001A97B /* APP_THEME.swift */,
+				DD96865326DA6305005A178B /* APP_CONSTANTS.swift */,
 			);
 			path = CONSTANTS;
 			sourceTree = "<group>";
@@ -176,6 +318,9 @@
 		DD9AF40C26D938E50001A97B /* MODULES */ = {
 			isa = PBXGroup;
 			children = (
+				DD96859F26DA23F4005A178B /* SEARCH */,
+				DD96859E26DA23E1005A178B /* LIVE TV */,
+				DD96859726DA2054005A178B /* HOME */,
 				DD9AF47926D951210001A97B /* TAB CONTROLLER */,
 				DD9AF40D26D938F60001A97B /* SPLASH */,
 			);
@@ -237,15 +382,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD9AF3EF26D936980001A97B /* Build configuration list for PBXNativeTarget "ALLinOne" */;
 			buildPhases = (
+				A34DC36B5BC03C2F51377A47 /* [CP] Check Pods Manifest.lock */,
 				DD9AF3C126D936830001A97B /* Sources */,
 				DD9AF3C226D936830001A97B /* Frameworks */,
 				DD9AF3C326D936830001A97B /* Resources */,
+				9EF9EA314CB1EE93CDB743E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ALLinOne;
+			packageProductDependencies = (
+				DD9685B426DA4AD1005A178B /* MyContent */,
+				DD9685BA26DA4B05005A178B /* DVSQLite */,
+				DD9685D826DA4BBF005A178B /* DVUtility */,
+				DD96861726DA4F4E005A178B /* DVConfiguration */,
+			);
 			productName = ALLinOne;
 			productReference = DD9AF3C526D936830001A97B /* ALLinOne.app */;
 			productType = "com.apple.product-type.application";
@@ -254,6 +407,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD9AF3F226D936980001A97B /* Build configuration list for PBXNativeTarget "ALLinOneTests" */;
 			buildPhases = (
+				509DCEF1B8D0E801744B0183 /* [CP] Check Pods Manifest.lock */,
 				DD9AF3D726D936980001A97B /* Sources */,
 				DD9AF3D826D936980001A97B /* Frameworks */,
 				DD9AF3D926D936980001A97B /* Resources */,
@@ -272,9 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD9AF3F526D936980001A97B /* Build configuration list for PBXNativeTarget "ALLinOneUITests" */;
 			buildPhases = (
+				F7EAE986B3E0F02836962AAA /* [CP] Check Pods Manifest.lock */,
 				DD9AF3E226D936980001A97B /* Sources */,
 				DD9AF3E326D936980001A97B /* Frameworks */,
 				DD9AF3E426D936980001A97B /* Resources */,
+				D95F484A70EA2737176B95D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,6 +473,12 @@
 				Base,
 			);
 			mainGroup = DD9AF3BC26D936830001A97B;
+			packageReferences = (
+				DD9685B326DA4AD1005A178B /* XCRemoteSwiftPackageReference "mycontent" */,
+				DD9685B926DA4B05005A178B /* XCRemoteSwiftPackageReference "dvsqlite" */,
+				DD9685D726DA4BBF005A178B /* XCRemoteSwiftPackageReference "dvutility" */,
+				DD96861626DA4F4E005A178B /* XCRemoteSwiftPackageReference "dvconfiguration" */,
+			);
 			productRefGroup = DD9AF3C626D936830001A97B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -335,10 +497,13 @@
 			files = (
 				DD9AF43C26D940EB0001A97B /* Other.storyboard in Resources */,
 				DD9AF3D526D936980001A97B /* LaunchScreen.storyboard in Resources */,
+				DD96862626DA5146005A178B /* one.sqlite in Resources */,
 				DD9AF46926D947490001A97B /* splashVideo.mp4 in Resources */,
+				DD96864826DA5FAF005A178B /* HomeTableViewCell1.xib in Resources */,
 				DD9AF3D226D936970001A97B /* Assets.xcassets in Resources */,
 				DD9AF45A26D945CD0001A97B /* Login.storyboard in Resources */,
 				DD9AF43726D940930001A97B /* Main.storyboard in Resources */,
+				DD96864F26DA61C8005A178B /* HomeTvChannelCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,19 +523,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		509DCEF1B8D0E801744B0183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALLinOneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF9EA314CB1EE93CDB743E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALLinOne/Pods-ALLinOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALLinOne/Pods-ALLinOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALLinOne/Pods-ALLinOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34DC36B5BC03C2F51377A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALLinOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95F484A70EA2737176B95D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALLinOne-ALLinOneUITests/Pods-ALLinOne-ALLinOneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ALLinOne-ALLinOneUITests/Pods-ALLinOne-ALLinOneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ALLinOne-ALLinOneUITests/Pods-ALLinOne-ALLinOneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EAE986B3E0F02836962AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALLinOne-ALLinOneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD9AF3C126D936830001A97B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD96864726DA5FAF005A178B /* HomeTableViewCell1.swift in Sources */,
 				DD9AF47026D94ECB0001A97B /* PlayerCustom.swift in Sources */,
 				DD9AF3CD26D936830001A97B /* ViewController.swift in Sources */,
+				DD9685AF26DA491F005A178B /* AppUtility.swift in Sources */,
 				DD9AF3C926D936830001A97B /* AppDelegate.swift in Sources */,
 				DD9AF40226D9377F0001A97B /* APP_EXTENSIONS.swift in Sources */,
+				DD9685A926DA24BB005A178B /* LiveTVVC.swift in Sources */,
 				DD9AF3CB26D936830001A97B /* SceneDelegate.swift in Sources */,
+				DD96859026DA2007005A178B /* HomeNC.swift in Sources */,
 				DD9AF48026D955B50001A97B /* APP_THEME.swift in Sources */,
 				DD9AF3FD26D937570001A97B /* APP_ENUMS_&_PROTOCOLS.swift in Sources */,
+				DD96865426DA6305005A178B /* APP_CONSTANTS.swift in Sources */,
+				DD96864E26DA61C8005A178B /* HomeTvChannelCell.swift in Sources */,
+				DD9685A126DA24A7005A178B /* SearchViewController.swift in Sources */,
 				DD9AF41026D939370001A97B /* SplashVC.swift in Sources */,
+				DD96859A26DA2077005A178B /* HomeVC.swift in Sources */,
 				DD9AF47526D950CB0001A97B /* APP_FUNCTIONS.swift in Sources */,
 				DD9AF47B26D951440001A97B /* EpicTabBarController.swift in Sources */,
 			);
@@ -537,13 +813,14 @@
 		};
 		DD9AF3F026D936980001A97B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5D9849123F00DCF415E24E /* Pods-ALLinOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HCT5YXHP6M;
 				INFOPLIST_FILE = ALLinOne/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -557,13 +834,14 @@
 		};
 		DD9AF3F126D936980001A97B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6144E052957EFAC24388976D /* Pods-ALLinOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HCT5YXHP6M;
 				INFOPLIST_FILE = ALLinOne/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,6 +855,7 @@
 		};
 		DD9AF3F326D936980001A97B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FFBEEBA9339C3EE33CF55A /* Pods-ALLinOneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -598,6 +877,7 @@
 		};
 		DD9AF3F426D936980001A97B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6963D3D252639BFA51B970D1 /* Pods-ALLinOneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -619,6 +899,7 @@
 		};
 		DD9AF3F626D936980001A97B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798845422F634F21D50EFA76 /* Pods-ALLinOne-ALLinOneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -638,6 +919,7 @@
 		};
 		DD9AF3F726D936980001A97B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A045CDFE130E6F79333691 /* Pods-ALLinOne-ALLinOneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -695,6 +977,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD9685B326DA4AD1005A178B /* XCRemoteSwiftPackageReference "mycontent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iNarendra7/mycontent.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DD9685B926DA4B05005A178B /* XCRemoteSwiftPackageReference "dvsqlite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iNarendra7/dvsqlite.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DD9685D726DA4BBF005A178B /* XCRemoteSwiftPackageReference "dvutility" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iNarendra7/dvutility.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DD96861626DA4F4E005A178B /* XCRemoteSwiftPackageReference "dvconfiguration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iNarendra7/dvconfiguration.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD9685B426DA4AD1005A178B /* MyContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9685B326DA4AD1005A178B /* XCRemoteSwiftPackageReference "mycontent" */;
+			productName = MyContent;
+		};
+		DD9685BA26DA4B05005A178B /* DVSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9685B926DA4B05005A178B /* XCRemoteSwiftPackageReference "dvsqlite" */;
+			productName = DVSQLite;
+		};
+		DD9685D826DA4BBF005A178B /* DVUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9685D726DA4BBF005A178B /* XCRemoteSwiftPackageReference "dvutility" */;
+			productName = DVUtility;
+		};
+		DD96861726DA4F4E005A178B /* DVConfiguration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD96861626DA4F4E005A178B /* XCRemoteSwiftPackageReference "dvconfiguration" */;
+			productName = DVConfiguration;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD9AF3BD26D936830001A97B /* Project object */;
 }

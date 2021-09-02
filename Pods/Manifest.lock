@@ -1,0 +1,38 @@
+PODS:
+  - DynamicBlurView (4.1.0)
+  - NewPopMenu (2.1.2)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - NewPopMenu
+  - PopupDialog
+  - SDWebImage
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - DynamicBlurView
+    - NewPopMenu
+    - PopupDialog
+    - SDWebImage
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 259752aaadbd6d5e657dfcd49808861e9424c0db
+
+COCOAPODS: 1.10.0

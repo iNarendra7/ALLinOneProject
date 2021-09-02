@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DVConfiguration",
+        "repositoryURL": "https://github.com/iNarendra7/dvconfiguration.git",
+        "state": {
+          "branch": "master",
+          "revision": "2e39c557c882e083cef90e1f6b787077c48f1f94",
+          "version": null
+        }
+      },
+      {
+        "package": "DVContent2",
+        "repositoryURL": "https://github.com/iNarendra7/dvcontent2.git",
+        "state": {
+          "branch": "master",
+          "revision": "b1616ec339f149408fc32c9fe4441cfaca5edcad",
+          "version": null
+        }
+      },
+      {
+        "package": "DVSQLite",
+        "repositoryURL": "https://github.com/iNarendra7/dvsqlite.git",
+        "state": {
+          "branch": "master",
+          "revision": "50386efc772a01b880f41da8694b28e44ee3d30d",
+          "version": null
+        }
+      },
+      {
+        "package": "DVUtility",
+        "repositoryURL": "https://github.com/iNarendra7/dvutility.git",
+        "state": {
+          "branch": "master",
+          "revision": "50110e5081fc6727a2ab5d8ba407a7c81e901586",
+          "version": null
+        }
+      },
+      {
+        "package": "MyContent",
+        "repositoryURL": "https://github.com/iNarendra7/mycontent.git",
+        "state": {
+          "branch": "master",
+          "revision": "6c33b1b174440509833622da3967d9deefed7a5e",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

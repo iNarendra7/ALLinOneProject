@@ -32,18 +32,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flD-pq-kbs">
-                                <rect key="frame" x="134.5" y="418" width="145" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashImage" translatesAutoresizingMaskIntoConstraints="NO" id="Xfg-ah-1bI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tH5-2c-rlQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="flD-pq-kbs" firstAttribute="centerX" secondItem="aeW-cA-KRy" secondAttribute="centerX" id="EGu-Pu-Nul"/>
-                            <constraint firstItem="flD-pq-kbs" firstAttribute="centerY" secondItem="aeW-cA-KRy" secondAttribute="centerY" id="e8g-zN-7Yg"/>
+                            <constraint firstItem="Xfg-ah-1bI" firstAttribute="width" secondItem="aeW-cA-KRy" secondAttribute="width" id="itz-xO-t9y"/>
+                            <constraint firstItem="Xfg-ah-1bI" firstAttribute="height" secondItem="aeW-cA-KRy" secondAttribute="height" id="nv9-z2-IP1"/>
+                            <constraint firstItem="Xfg-ah-1bI" firstAttribute="centerX" secondItem="aeW-cA-KRy" secondAttribute="centerX" id="wpk-hc-WVT"/>
+                            <constraint firstItem="Xfg-ah-1bI" firstAttribute="centerY" secondItem="aeW-cA-KRy" secondAttribute="centerY" id="ynj-mu-SYh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9xo-WV-uf8"/>
@@ -54,6 +53,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="splashImage" width="591" height="1280"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

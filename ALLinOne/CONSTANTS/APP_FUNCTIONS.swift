@@ -25,3 +25,11 @@ func createDashBoard() {
     window.makeKeyAndVisible()
 }
 
+
+func getBannerHeight()->CGFloat{
+    return (AppUtility.getScreenWidth() - 40) * 0.65 //AppUtility.isIpad() ? 250 : 220
+}
+
+func getPodcastContentSize(height: CGFloat) -> CGSize {
+    return CGSize(width: height, height: height)
+}
